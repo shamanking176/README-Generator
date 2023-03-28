@@ -35,10 +35,20 @@ const questions = [{
     message:'Enter test instructions',
 },
 {
+    type:'input',
+    name:'email',
+    message:'Enter email for questions',
+},
+{
+    type:'input',
+    name:'github',
+    message:'Enter github for questions',
+},
+{
     type:'list',
     name:'license',
     message:'Choose license',
-    choices:['A','B','C'],
+    choices:['mit','isc','apache'],
 },]
     ;
 
